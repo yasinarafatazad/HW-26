@@ -1,0 +1,20 @@
+$(function () {
+    $('.slide1').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        fade: true,
+        speed:1000,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        prevArrow:".left",
+        nextArrow:'.right',
+      });
+      $('.slide2').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: false,
+        prevArrow:".left2",
+        nextArrow:'.right2',
+       });
+})
